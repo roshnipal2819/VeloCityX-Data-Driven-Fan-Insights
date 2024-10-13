@@ -20,37 +20,41 @@ The dataset consists of sample user interaction data from the VeloCityX app, wit
 #### Data Cleaning & Feature Engineering
 The raw dataset was well-structured with no missing values or duplicates.
 New features were engineered to enrich the analysis:
--Engagement Score: Sum of time on Live 360 and chat activity.
--Purchased Merchandise (binary): A binary indicator of whether a user made a purchase.
+- Engagement Score: Sum of time on Live 360 and chat activity.
+- Purchased Merchandise (binary): A binary indicator of whether a user made a purchase.
 
 #### Investigating Trends
 The analysis identified several key trends:
--Users with higher engagement (more active on Live 360 and chat) were more likely to purchase virtual merchandise.
--Participation in fan challenges positively correlated with merchandise purchases.
--Sponsorship interactions (ad clicks) showed a moderate correlation with both purchases and engagement.
--Predictive accuracy in challenges was found to be a key factor driving purchases and user engagement.
+- Users with higher engagement (more active on Live 360 and chat) were more likely to purchase virtual merchandise.
+- Participation in fan challenges positively correlated with merchandise purchases.
+- Sponsorship interactions (ad clicks) showed a moderate correlation with both purchases and engagement.
+- Predictive accuracy in challenges was found to be a key factor driving purchases and user engagement.
 
 #### Clustering and User Segmentation
 Using K-Means clustering, three distinct user segments were identified:
+
 High-Engagement, High-Purchase Users: These users were the most valuable, with high engagement and purchase rates. They also interacted frequently with sponsorship ads.
 Moderate Engagement, Low Purchase Users: These users participated in fan challenges but had limited purchases and ad interactions.
 Low-Engagement, Non-Purchasers: This group was the least engaged, requiring targeted strategies to boost involvement.
 
 #### Predictive Modeling Results
 The following machine learning models were applied to predict merchandise purchases:
+
 Random Forest Model: Achieved 77% accuracy. Key predictors included Engagement Score, Predictive Accuracy, and Sponsorship Interactions.
 XGBoost Model: Performed slightly better, with 80% accuracy and higher recall for identifying purchasers. Fan Challenges Completed and Engagement Score were the most influential features.
 Neural Network Model: Captured non-linear relationships, achieving 83% accuracy. Required more training iterations for stable performance.
 
 #### Visualization Insights
 Several visualizations were created to communicate the findings effectively:
--Correlation Heatmap: Showed relationships between features, highlighting correlations between engagement and purchases.
--Cluster Scatterplots: Provided clear segmentation of users based on behavior.
--Feature Importance Bar Charts: Identified the most critical predictors of merchandise purchases.
--Confusion Matrix: Evaluated the performance of predictive models by comparing predicted vs. actual outcomes.
+
+- Correlation Heatmap: Showed relationships between features, highlighting correlations between engagement and purchases.
+- Cluster Scatterplots: Provided clear segmentation of users based on behavior.
+- Feature Importance Bar Charts: Identified the most critical predictors of merchandise purchases.
+- Confusion Matrix: Evaluated the performance of predictive models by comparing predicted vs. actual outcomes.
 
 #### Conclusion
 The VeloX project successfully combined data analysis, clustering, and predictive modeling to uncover valuable insights into user behavior on the VeloCityX platform. The key findings emphasized that:
--High engagement and challenge participation are strong indicators of merchandise purchases.
--Sponsorship interactions play a moderate role in driving engagement and purchases.
--Machine learning models such as Random Forest, XGBoost, and Neural Networks provided robust predictions, with XGBoost delivering the best performance.
+
+- High engagement and challenge participation are strong indicators of merchandise purchases.
+- Sponsorship interactions play a moderate role in driving engagement and purchases.
+- Machine learning models such as Random Forest, XGBoost, and Neural Networks provided robust predictions, with XGBoost delivering the best performance.
