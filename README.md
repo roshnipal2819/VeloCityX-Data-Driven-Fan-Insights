@@ -41,7 +41,9 @@ Low-Engagement, Non-Purchasers: This group was the least engaged, requiring targ
 The following machine learning models were applied to predict merchandise purchases:
 
 Random Forest Model: Achieved 77% accuracy. Key predictors included Engagement Score, Predictive Accuracy, and Sponsorship Interactions.
+
 XGBoost Model: Performed slightly better, with 80% accuracy and higher recall for identifying purchasers. Fan Challenges Completed and Engagement Score were the most influential features.
+
 Neural Network Model: Captured non-linear relationships, achieving 83% accuracy. Required more training iterations for stable performance.
 
 #### Visualization Insights
