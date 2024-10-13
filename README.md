@@ -3,8 +3,11 @@ This project explores user behavior on the VeloCityX platform, analyzing how var
 
 #### Objectives
  Data Cleaning & Preparation: Clean and organize the raw data into a usable format. Engineer new features, such as Engagement Score and Purchased Merchandise (binary), to enhance the analysis.
+ 
  Investigate Trends: Identify which users are most likely to purchase merchandise.Explore correlations between user engagement, sponsorship interactions, and purchases.
+ 
  Clustering & Predictive Modeling:Use K-Means clustering to segment users. Apply Random Forest, XGBoost, and Neural Networks to predict merchandise purchases.
+ 
  Visualization Insights: Use correlation heatmaps, scatterplots, feature importance charts, and more to communicate key findings effectively.
 
 #### Dataset
@@ -19,6 +22,7 @@ The dataset consists of sample user interaction data from the VeloCityX app, wit
 
 #### Data Cleaning & Feature Engineering
 The raw dataset was well-structured with no missing values or duplicates.
+
 New features were engineered to enrich the analysis:
 - Engagement Score: Sum of time on Live 360 and chat activity.
 - Purchased Merchandise (binary): A binary indicator of whether a user made a purchase.
@@ -33,8 +37,10 @@ The analysis identified several key trends:
 #### Clustering and User Segmentation
 Using K-Means clustering, three distinct user segments were identified:
 
-High-Engagement, High-Purchase Users: These users were the most valuable, with high engagement and purchase rates. They also interacted frequently with sponsorship ads.
+High-Engagement, High-Purchase Users: These users were the most valuable, with high engagement and purchase rates. They also interacted frequently with sponsorship ads. 
+
 Moderate Engagement, Low Purchase Users: These users participated in fan challenges but had limited purchases and ad interactions.
+
 Low-Engagement, Non-Purchasers: This group was the least engaged, requiring targeted strategies to boost involvement.
 
 #### Predictive Modeling Results
