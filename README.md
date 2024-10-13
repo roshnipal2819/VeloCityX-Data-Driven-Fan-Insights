@@ -34,21 +34,14 @@ The analysis identified several key trends:
 - Sponsorship interactions (ad clicks) showed a moderate correlation with both purchases and engagement.
 - Predictive accuracy in challenges was found to be a key factor driving purchases and user engagement.
 
-#### Clustering and User Segmentation
-Using K-Means clustering, three distinct user segments were identified:
-
-High-Engagement, High-Purchase Users: These users were the most valuable, with high engagement and purchase rates. They also interacted frequently with sponsorship ads. 
-
-Moderate Engagement, Low Purchase Users: These users participated in fan challenges but had limited purchases and ad interactions.
-
-Low-Engagement, Non-Purchasers: This group was the least engaged, requiring targeted strategies to boost involvement.
-
 #### Predictive Modeling Results
 The following machine learning models were applied to predict merchandise purchases:
 
-Random Forest Model: Achieved 77% accuracy. Key predictors included Engagement Score, Predictive Accuracy, and Sponsorship Interactions.
+Logistic Regression: Achieved 85% accuracy. 
 
-XGBoost Model: Performed slightly better, with 80% accuracy and higher recall for identifying purchasers. Fan Challenges Completed and Engagement Score were the most influential features.
+Random Forest Model: Achieved 95% accuracy. Key predictors included Engagement Score, Predictive Accuracy, and Sponsorship Interactions.
+
+XGBoost Model: with 95% accuracy and higher recall for identifying purchasers. Fan Challenges Completed and Engagement Score were the most influential features.
 
 Neural Network Model: Captured non-linear relationships, achieving 83% accuracy. Required more training iterations for stable performance.
 
