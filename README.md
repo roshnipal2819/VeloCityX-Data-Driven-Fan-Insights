@@ -9,13 +9,13 @@ This project explores user behavior on the VeloCityX platform, analyzing how var
 
 #### Dataset
 The dataset consists of sample user interaction data from the VeloCityX app, with the following features:
--User ID: Unique identifier for each user.
--Fan Challenges Completed: Number of challenges completed.
--Predictive Accuracy (%): User's accuracy in predicting race outcomes.
--Virtual Merchandise Purchases: Number of merchandise purchases.
--Sponsorship Interactions (Ad Clicks): Number of ad views or clicks.
--Time on Live 360 (mins): Time spent watching race events on Live 360.
--Real-Time Chat Activity (Messages Sent): Number of messages sent during race events.
+- User ID: Unique identifier for each user.
+- Fan Challenges Completed: Number of challenges completed.
+- Predictive Accuracy (%): User's accuracy in predicting race outcomes.
+- Virtual Merchandise Purchases: Number of merchandise purchases.
+- Sponsorship Interactions (Ad Clicks): Number of ad views or clicks.
+- Time on Live 360 (mins): Time spent watching race events on Live 360.
+- Real-Time Chat Activity (Messages Sent): Number of messages sent during race events.
 
 #### Data Cleaning & Feature Engineering
 The raw dataset was well-structured with no missing values or duplicates.
